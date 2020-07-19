@@ -13,11 +13,13 @@ In this lab, you'll first have to fix an incorrect Python script.
 
 You will have 90 minutes to complete this lab
 
+**Passed 100%**
+
 <hr>
 
 ### Accessing the virtual machine
 
-Option 2: OSX and Linux users: Connecting to your VM via SSH
+**Option 2: OSX and Linux users: Connecting to your VM via SSH**
 
 ```
 chmod 600 ~/Downloads/qwikLABS-XXXXX.pem
@@ -42,7 +44,7 @@ nano health_checks.py
 ./health_checks.py # Expected output: "Everything ok"
 ```
 
-**`health_checks.py`**
+**`File: health_checks.py`**
 ```
 #!/usr/bin/env python3
 import shutil
@@ -74,7 +76,7 @@ cd ~/scripts
 nano network.py
 ```
 
-**`network.py`**
+**`File: network.py`**
 ```
 #!/usr/bin/env python3
 
@@ -97,7 +99,7 @@ nano health_checks.py
 ./health_checks.py # Expected output: "Everything ok"
 ```
 
-**`health_checks.py`**
+**`File: health_checks.py`**
 ```
 #!/usr/bin/env python3
 import shutil
