@@ -1,6 +1,4 @@
-## Files and Directories Cheat-Sheet
-
-<hr>
+# Files and Directories Cheat-Sheet
 
 Check out the following links for more information:
 

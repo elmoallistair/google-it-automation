@@ -1,10 +1,8 @@
-## Practice Quiz: Reading & Writing CSV Files
+# Practice Quiz: Reading & Writing CSV Files
 * **Total points: 5**
 * **Score: 80% (?)**
 
-<hr>
-
-### Question 1
+## Question 1
 
 We're working with a list of flowers and some information about each one. The create_file function writes this information to a CSV file. The contents_of_file function reads this file into records and returns the information in a nicely formatted block. Fill in the gaps of the contents_of_file function to turn the data in the CSV file into a dictionary using DictReader.
 
@@ -48,7 +46,7 @@ This question throws:
 > Incorrect\
 Something went wrong! Contact Coursera Support about this question!
 
-**Output** 
+Output:
 ```
 a pink carnation is annual
 a yellow daffodil is perennial
@@ -97,7 +95,17 @@ def contents_of_file(filename):
 print(contents_of_file("flowers.csv"))
 ```
 
-### Question 3
+Output:
+
+```
+a pink carnation is annual
+a yellow daffodil is perennial
+a blue iris is perennial
+a red poinsettia is perennial
+a yellow sunflower is annual
+```
+
+## Question 3
 
 In order to use the writerows() function of DictWriter() to write a list of dictionaries to each line of a CSV file, what steps should we take? (Check all that apply)
 
@@ -105,6 +113,12 @@ In order to use the writerows() function of DictWriter() to write a list of dict
 * **Write the fieldnames parameter into the first row using writeheader()**
 * **Open the csv file using with open**
 * Import the OS module
+
+> We have to create a DictWriter() object instance to work with, and pass to it the fieldnames parameter defined as a list of keys.
+
+> The non-optional fieldnames parameter list values should be written to the first row.
+
+> The CSV file has to be open before we can write to it.
 
 ### Question 4
 
@@ -115,7 +129,13 @@ Which of the following is true about unpacking values into variables when readin
 * **An instance of the reader class must be created first**
 * The CSV file does not have to be explicitly opened
 
-### Question 5
+> We need to have the exact same amount of variables on the left side of the equals sign as the length of the sequence on the right side when unpacking rows into individual variables.
+
+> Although they read the CSV rows into different datatypes, both csv.reader or csv.DictReader can be used to parse CSV files.
+
+> We have to create an instance of the reader class we are using before we can parse the CSV file.
+
+## Question 5
 
 If we are analyzing a file's contents to correctly structure its data, what action are we performing on the file?
 
@@ -123,3 +143,5 @@ If we are analyzing a file's contents to correctly structure its data, what acti
 * Appending
 * **Parsing**
 * Reading
+
+> Parsing a file means analyzing its contents to correctly structure the data. As long as we know what the data is, we can organize it in a way our script can use effectively.

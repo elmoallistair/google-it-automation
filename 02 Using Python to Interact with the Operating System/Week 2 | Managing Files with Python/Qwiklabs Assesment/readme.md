@@ -1,6 +1,4 @@
-## Qwiklabs Assessment: Handling Files
-
-<hr>
+# Qwiklabs Assessment: Handling Files
 
 ### Introduction
 
@@ -12,7 +10,7 @@ You will have 90 minutes to complete this lab
 
 <hr>
 
-### Accessing the virtual machine
+## Accessing the virtual machine
 
 **Option 2: OSX and Linux users: Connecting to your VM via SSH**
 
@@ -21,19 +19,25 @@ chmod 600 ~/Downloads/qwikLABS-XXXXX.pem
 ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address
 ```
 
-### Prerequisites
+## Prerequisites
 
 ```
 cd data
 ls
 cat employees.csv
 cd ~/scripts
-nano generate_report.py
 ```
 
-### Convert employee data to dictionary
+## Convert employee data to dictionary
 
-**`File: generate_report.py`**
+```
+nano generate_report.py
+chmod +x generate_report.py
+./generate_report.py 
+```
+
+**generate_report.py**
+
 ```
 #!/usr/bin/env python3
 
@@ -51,22 +55,19 @@ employee_list = read_employees('/home/<username>/data/employees.csv')
 print(employee_list)
 ```
 
-```
-chmod +x generate_report.py
-./generate_report.py 
-```
-
 The list employees_list within the script should return the list of dictionaries as shown below
 
 ![img](https://cdn.qwiklabs.com/34yJi4Dtn9hrTnj7iVRtpdg69SxaIK2ZaijqJipbqJI%3D)
 
-### Process employee data
+## Process employee data
 
 ```
 nano generate_report.py
+./generate_report.py
 ```
 
-**`File: generate_report.py`**
+**generate_report.py**
+
 ```
 #!/usr/bin/env python3
 
@@ -97,21 +98,22 @@ dictionary = process_data(employee_list)
 print(dictionary)
 ```
 
-```
-./generate_report.py
-```
-
 This should return a dictionary in the format `department: amount`, as shown below
 
 ![img](https://cdn.qwiklabs.com/GEZ0BrlPKu2ecgNF%2FV8C%2FGZSUgFtWlZyS9jN6wXoa50%3D)
 
-### Generate a report
+## Generate a report
 
 ```
 nano generate_report.py
+./generate_report.py
+cd ~/data
+ls
+cat report.txt
 ```
 
-**`File: generate_report.py`**
+**generate_report.py**
+
 ```
 #!/usr/bin/env python3
 
@@ -148,13 +150,6 @@ dictionary = process_data(employee_list)
 print(dictionary)
 
 write_report(dictionary, '/home/<username>/data/report.txt')
-```
-
-```
-./generate_report.py
-cd ~/data
-ls
-cat report.txt
 ```
 
 The report file should be similar to the below image.

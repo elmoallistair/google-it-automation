@@ -1,6 +1,4 @@
-## CSV Files Cheat Sheet
-
-<hr>
+# CSV Files Cheat Sheet
 
 Check out the following links for more information:
 

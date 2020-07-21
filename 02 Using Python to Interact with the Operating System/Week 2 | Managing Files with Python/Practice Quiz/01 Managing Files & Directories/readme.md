@@ -1,8 +1,6 @@
-## Practice Quiz: Managing Files & Directories
+# Practice Quiz: Managing Files & Directories
 * **Total points: 5**
 * **Score: 100%**
-
-<hr>
 
 ## Question 1
 
@@ -16,6 +14,12 @@ def create_python_script(filename):
   return(filesize)
 
 print(create_python_script("program.py"))
+```
+
+Output:
+
+```
+31
 ```
 
 ## Question 2
@@ -42,6 +46,12 @@ def new_directory(directory, filename):
 print(new_directory("PythonPrograms", "script.py"))
 ```
 
+Output:
+
+```
+['script.py']
+```
+
 ## Question 3
 
 Which of the following methods from the os module will create a new directory?
@@ -50,6 +60,8 @@ Which of the following methods from the os module will create a new directory?
 * listdir()
 * **mkdir()**
 * chdir()
+
+> os.mkdir() will create a new directory with the name provided as a string parameter.
 
 ## Question 4
 
@@ -76,6 +88,12 @@ print(file_date("newfile.txt"))
 # Should be today's date in the format of yyyy-mm-dd
 ```
 
+Output:
+
+```
+2020-07-18
+```
+
 ## Question 5
 
 The parent_directory function returns the name of the directory that's located just above the current working directory. Remember that '..' is a relative path alias that means "go up to the parent directory". Fill in the gaps to complete this function.
@@ -91,4 +109,10 @@ def parent_directory():
   return relative_parent
 
 print(parent_directory())
+```
+
+Output:
+
+```
+/
 ```

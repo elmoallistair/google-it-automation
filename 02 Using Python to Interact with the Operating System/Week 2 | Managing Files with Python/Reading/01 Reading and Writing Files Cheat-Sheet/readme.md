@@ -1,6 +1,4 @@
-## Reading and Writing Files Cheat-Sheet
-
-<hr>
+# Reading and Writing Files Cheat-Sheet
 
 Check out the following link for more information:
 
