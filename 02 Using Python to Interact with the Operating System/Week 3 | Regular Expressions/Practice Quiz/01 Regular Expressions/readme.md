@@ -1,10 +1,8 @@
-## Practice Quiz: Regular Expressions
+# Practice Quiz: Regular Expressions
 * **Total points: 5**
 * **Score: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 When using regular expressions, which of the following expressions uses a reserved character that can represent any single character?
 
@@ -13,7 +11,7 @@ When using regular expressions, which of the following expressions uses a reserv
 * re.findall(fu$, text)
 * re.findall(^un, text)
 
-### Question 2
+## Question 2
 
 Which of the following is NOT a function of the Python regex module?
 
@@ -22,7 +20,7 @@ Which of the following is NOT a function of the Python regex module?
 * re.findall()
 * **re.grep()**
 
-### Question 3
+## Question 3
 
 The circumflex [^] and the dollar sign [$] are anchor characters. What do these anchor characters do in regex?
 
@@ -31,7 +29,7 @@ The circumflex [^] and the dollar sign [$] are anchor characters. What do these 
 * Exclude everything between two anchor characters
 * Represent any number and any letter character, respectively
 
-### Question 4
+## Question 4
 
 When using regex, some characters represent particular types of characters. Some examples are the dollar sign, the circumflex, and the dot wildcard. What are these characters collectively known as?
 
@@ -40,7 +38,7 @@ When using regex, some characters represent particular types of characters. Some
 * Literal characters
 * Wildcard characters
 
-### Question 5
+## Question 5
 
 What is grep?
 
