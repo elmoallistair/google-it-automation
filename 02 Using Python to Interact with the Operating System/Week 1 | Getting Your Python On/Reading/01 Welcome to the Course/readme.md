@@ -1,10 +1,8 @@
-## Welcome to the Course
-
-<hr>
+# Welcome to the Course
 
 In this course, you’ll learn how to use Python to perform system administration tasks and interact with a computer’s operating system. You’re about to embark on an exciting journey to learn one of the most-in-demand job skills in IT today!
 
-### Course prerequisites
+## Course prerequisites
 
 This course builds upon the contents taught in the introduction to Python course:
 
@@ -20,19 +18,19 @@ This course also requires some familiarity with some basic operating system conc
 
 To get the most out of this course, we strongly recommend that you **install software in your machine**, or have your system administrator install it.
 
-### How to pass the class
+## How to pass the class
 
 The course certificate gives you a way to prove your new programming skills to employers. To qualify for the certificate, you have to enroll in the program, pay the fee, and pass the graded assessments. If you don’t want to pay, you can still audit the course for free. This lets you view all videos and submit practice quizzes as you learn. One thing to remember though, this option doesn’t let you submit assessments, earn a grade, or receive the certificate.
 
-### How deadlines work
+## How deadlines work
 
 When you enroll in the course, the system automatically sets a deadline for when you need to complete each section. Heads up: These deadlines are there to help you organize your time, but you can take the course at your own pace. If you "miss" a deadline, you can just reset it to a new date. There’s no time limit in which you have to finish the course, and you can earn the certificate whenever you finish.
 
-### Qwiklabs
+## Qwiklabs
 
 For some of our exercises, you'll be using an application called Qwiklabs. Qwiklabs lets you interact with a computer running an operating system that might not be the one running on your machine. The Qwiklabs scenarios will allow you to solve some real-world problems, putting your knowledge to work through active learning exercises.
 
-### Getting and giving help
+## Getting and giving help
 
 Here are a few ways you can give and get help: 
 
@@ -45,7 +43,7 @@ Here are a few ways you can give and get help:
 * If the content was interesting or helped you learn, click the thumbs-up icon. 
 * If the content was unhelpful or confusing, click the thumbs-down icon. 
 
-### Finding out more information
+## Finding out more information
 
 Throughout this course, we teach you how to do a range of things with Python, Bash, and other tools. While we’ll provide a lot of information through videos and supplemental readings, sometimes, you may need to look things up on your own, now and throughout your career. Things change fast in IT, so it’s critical to do your own research to stay up-to-date on what’s new. We recommend you use your favorite search engine to find more information about concepts we cover in this course — it’s great practice for the real world!
 

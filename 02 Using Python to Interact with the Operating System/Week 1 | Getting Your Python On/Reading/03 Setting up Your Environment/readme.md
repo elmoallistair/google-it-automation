@@ -1,6 +1,4 @@
-## Setting up Your Environment
-
-<hr>
+# Setting up Your Environment
 
 After you’ve installed Python and checked that it works, the next step to set up your developer environment is to choose your main code editor.
 

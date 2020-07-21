@@ -1,6 +1,4 @@
-## Is it worth the time?
-
-<hr>
+# Is it worth the time?
 
 Check out the following link for more information:
 

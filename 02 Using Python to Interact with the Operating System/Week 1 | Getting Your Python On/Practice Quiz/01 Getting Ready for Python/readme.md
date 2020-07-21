@@ -1,10 +1,8 @@
-## Practice Quiz: Getting Ready for Python
+# Practice Quiz: Getting Ready for Python
 * **Total points: 5**
 * **Score: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 Which of the following is the most modern, up-to-date version of Python?
 
@@ -13,7 +11,9 @@ Which of the following is the most modern, up-to-date version of Python?
 * Python 4
 * Anaconda
 
-### Question 2
+> Python 3 is the latest version of Python, with Python 3.8.0 being released on October 14, 2019.
+
+## Question 2
 
 Which of the following operating systems is compatible with Python 3?
 
@@ -22,7 +22,9 @@ Which of the following operating systems is compatible with Python 3?
 * Apple MacOS
 * **All of the above**
 
-### Question 3
+> Python is a cross-platform language. You can use it on Windows, macOS, Linux, and even on lesser-known Unix variants like FreeBSD.
+
+## Question 3
 
 Which of the following operating systems does not run on a Linux kernel?
 
@@ -31,7 +33,9 @@ Which of the following operating systems does not run on a Linux kernel?
 * **Mac OS**
 * Ubuntu
 
-### Question 4
+> Mac OS is a proprietary operating system designed by Apple and uses a proprietary kernel based on BSD.
+
+## Question 4
 
 If we want to check to see  what version of Python is installed, what would we type into the command line? Select all that apply.
 
@@ -40,7 +44,11 @@ If we want to check to see  what version of Python is installed, what would we t
 * python --help
 * python -v
 
-### Question 5
+> Typing python -V (note the capital V) at the command line will tell you if Python is currently installed and if so, what version.
+
+> Typing python --version (note the double dashes) at the command line will tell you if Python is currently installed and if so, what version.
+
+## Question 5
 
 What is pip an example of?
 
@@ -48,3 +56,5 @@ What is pip an example of?
 * An operating system
 * A repository of Python modules
 * **A Python package manager**
+
+> pip is a command line tool commonly used as the main method of managing packages in Python.

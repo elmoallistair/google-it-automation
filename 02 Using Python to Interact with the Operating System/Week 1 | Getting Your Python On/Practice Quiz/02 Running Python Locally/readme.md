@@ -1,10 +1,8 @@
-## Practice Quiz: Running Python Locally
+# Practice Quiz: Running Python Locally
 * **Total points: 5**
 * **Score: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 When your IDE automatically creates an indent for you, this is known as what?
 
@@ -13,7 +11,9 @@ When your IDE automatically creates an indent for you, this is known as what?
 * Syntax highlighting
 * **Code completion**
 
-### Question 2
+> Code completion is an IDE feature that takes educated guesses about what you might be trying to type next, and offers suggestions to complete it for you.
+
+## Question 2
 
 Can you identify the error in the following code?
 
@@ -22,7 +22,9 @@ Can you identify the error in the following code?
 * The shebang line is not necessary.
 * numpy is not imported correctly because as is used.
 
-### Question 3
+> While the x variable is calling numpy using its declared local name, y is not using the local name. This will result in an error.
+
+## Question 3
 
 Which type of programming language is read and converted to machine code before runtime, allowing for more efficient code?
 
@@ -31,7 +33,9 @@ Which type of programming language is read and converted to machine code before 
 * Interpreted language
 * Intermediate code
 
-### Question 4
+> A compiled language is translated into code readable by the target machine during development using a compiler.
+
+## Question 4
 
 Which of the following is not an IDE or code editor?
 
@@ -40,7 +44,9 @@ Which of the following is not an IDE or code editor?
 * Atom
 * PyCharm
 
-### Question 5
+> The package manager pip is used in Python to install packages from repositories such as PyPI.
+
+## Question 5
 
 What does the PATH variable do?
 
@@ -48,3 +54,5 @@ What does the PATH variable do?
 * Returns the current working directory
 * Holds the command line arguments of your Python program in a list
 * Tells the operating system where to cache frequently used files
+
+> The PATH variable tells the operating system where to find executables.

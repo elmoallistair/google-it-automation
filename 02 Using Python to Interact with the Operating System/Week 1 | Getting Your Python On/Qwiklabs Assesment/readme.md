@@ -1,6 +1,4 @@
-## Working with Python Scripts
-
-<hr>
+# Working with Python Scripts
 
 ### Introduction
 
@@ -17,7 +15,7 @@ You will have 90 minutes to complete this lab
 
 <hr>
 
-### Accessing the virtual machine
+## Accessing the virtual machine
 
 **Option 2: OSX and Linux users: Connecting to your VM via SSH**
 
@@ -26,7 +24,7 @@ chmod 600 ~/Downloads/qwikLABS-XXXXX.pem
 ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address
 ```
 
-### Fix file permissions
+## Fix file permissions
 
 ```
 cd scripts
@@ -37,14 +35,14 @@ sudo chmod +x health_checks.py
 ./health_checks.py # Expected output: "ERROR!"
 ```
 
-### Debug the issue
+## Debug the issue
 
 ```
 nano health_checks.py
 ./health_checks.py # Expected output: "Everything ok"
 ```
 
-**`File: health_checks.py`**
+**`health_checks.py`**
 ```
 #!/usr/bin/env python3
 import shutil
@@ -68,7 +66,7 @@ else:
     print("Everything ok")
 ```
 
-### Create a new Python module
+## Create a new Python module
 
 ```
 sudo apt install python3-requests
@@ -76,7 +74,7 @@ cd ~/scripts
 nano network.py
 ```
 
-**`File: network.py`**
+**`network.py`**
 ```
 #!/usr/bin/env python3
 
@@ -92,14 +90,14 @@ def check_connectivity():
     return 200
 ```
 
-### Use the Python module
+## Use the Python module
 
 ```
 nano health_checks.py
 ./health_checks.py # Expected output: "Everything ok"
 ```
 
-**`File: health_checks.py`**
+**`health_checks.py`**
 ```
 #!/usr/bin/env python3
 import shutil
@@ -123,7 +121,3 @@ if not check_disk_usage('/') or not check_cpu_usage():
 elif check_localhost() and check_connectivity():
     print("Everything ok")
 ```
-
-
-
-
