@@ -1,10 +1,8 @@
-## Practice Quiz: Introduction to Programming
+# Practice Quiz: Introduction to Programming
 * **Total points: 5**
 * **Score: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 What’s a computer program?
 * A set of languages available in the computer
@@ -12,7 +10,9 @@ What’s a computer program?
 * **A list of instructions that the computer has to follow to reach a goal**
 * A file that gets copied to all machines in the network
 
-### Question 2
+>  At a basic level, a computer program is a recipe of instructions that tells your computer what to do.
+
+## Question 2
 
 What’s the syntax of a language?
 * **The rules of how to express things in that language**
@@ -20,7 +20,9 @@ What’s the syntax of a language?
 * The difference between one language and another
 * The meaning of the words
 
-### Question 3
+> In a human language, syntax is the rules for how a sentence is constructed, and in a programming language, syntax is the rules for how each instruction is written.
+
+## Question 3
 
 What’s the difference between a program and a script?
 * **There’s not much difference, but scripts are usually simpler and shorter.**
@@ -28,7 +30,9 @@ What’s the difference between a program and a script?
 * Scripts can only be used for simple tasks.
 * Programs are written by software engineers; scripts are written by system administrators.
 
-### Question 4
+> The line between a program and a script is blurry; scripts usually have a shorter development cycle. This means that scripts are shorter, simpler, and can be written very quickly.
+
+## Question 4
 
 Which of these scenarios are good candidates for automation? Select all that apply.
 * **Generating a sales report, split by region and product type**
@@ -39,6 +43,12 @@ Which of these scenarios are good candidates for automation? Select all that app
 * **Sending personalized emails to subscribers of your website**
 * Investigating the root cause of a machine failing to boot
 
+> Creating a report that presents stored data in specific ways is a tedious task that can be easily automated.
+
+> A task like copying files to other computers is easily automated, and helps to reduce unnecessary manual work.
+
+> Sending out periodic emails is a time-consuming task that can be easily automated, and you won't have to worry about forgetting to do it on a regular basis.
+
 ## Question 5
 
 What are semantics when applied to programming code and pseudocode?
@@ -46,3 +56,5 @@ What are semantics when applied to programming code and pseudocode?
 * The difference in number values in one instance of a script compared to another
 * **The effect the programming instructions have**
 * The end result of a programming instruction
+
+> Like human language, the intended meaning or effect of words, or in this case instructions, are referred to as semantics.

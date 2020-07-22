@@ -1,10 +1,8 @@
-## Practice Quiz: Functions
+# Practice Quiz: Functions
 * **Total points: 5**
 * **Grade: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 This function converts miles to kilometers (km).
 
@@ -21,20 +19,24 @@ def convert_distance(miles):
 my_trip_miles = 55
 
 # 2) Convert my_trip_miles to kilometers by calling the function above
-# my_trip_km = ___
 my_trip_km = convert_distance(my_trip_miles)
 
 # 3) Fill in the blank to print the result of the conversion
-# print("The distance in kilometers is " + ___)
 print("The distance in kilometers is " + str(my_trip_km))
 
 # 4) Calculate the round-trip in kilometers by doubling the result,
 #    and fill in the blank to print the result
-# print("The round-trip in kilometers is " + ___)
 print("The round-trip in kilometers is " + str(2 * my_trip_km))
 ```
 
-### Question 2
+Output:
+
+```
+The distance in kilometers is 88.0
+The round-trip in kilometers is 176.0
+```
+
+## Question 2
 
 This function compares two numbers and returns them in increasing order.
 
@@ -57,7 +59,13 @@ smaller, bigger = order_numbers(100, 99)
 print(smaller, bigger)
 ```
 
-### Question 3
+Output:
+
+```
+99 100
+```
+
+## Question 3
 
 What are the values passed into functions as input called?
 
@@ -66,7 +74,9 @@ What are the values passed into functions as input called?
 * **Parameters**
 * Data types
 
-### Question 4
+> A parameter, also sometimes called an argument, is a value passed into a function for use within the function.
+
+## Question 4
 
 Let's revisit our lucky_number function. We want to change it, so that instead of printing the message, it returns the message. This way, the calling line can print the message, or do something else with it if needed. Fill in the blanks to complete the code to make it work.
 
@@ -80,7 +90,14 @@ print(lucky_number("Kay"))
 print(lucky_number("Cameron"))
 ```
 
-### Question 5
+Output:
+
+```
+Hello Kay. Your lucky number is 27
+Hello Cameron. Your lucky number is 63
+```
+
+## Question 5
 
 What is the purpose of the def keyword?
 
@@ -88,3 +105,5 @@ What is the purpose of the def keyword?
 * Used to define a return value
 * Used to define a new variable
 * Used to define a new parameter
+
+> When defining a new function, we must use the def keyword followed by the function name and properly indented body.

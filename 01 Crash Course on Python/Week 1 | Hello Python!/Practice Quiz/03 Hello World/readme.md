@@ -1,10 +1,8 @@
-## Practice Quiz: Hello World
+# Practice Quiz: Hello World
 * **Total points: 5**
 * **Score: 100%**
 
-<hr>
-
-### Question 1
+## Question 1
 
 What are functions in Python?
 * Functions let us to use Python as a calculator.
@@ -12,7 +10,9 @@ What are functions in Python?
 * Functions are only used to print messages to the screen.
 * Functions are how we tell if our program is functioning or not.
 
-### Question 2
+> Python functions encapsulate a certain action, like outputting a message to the screen in the case of print().
+
+## Question 2
 
 What are keywords in Python?
 * **Keywords are reserved words that are used to construct instructions.**
@@ -20,7 +20,9 @@ What are keywords in Python?
 * Keywords are used to print messages like "Hello World!" to the screen.
 * Keywords are the words that we need to memorize to program in Python.
 
-### Question 3
+> Using the reserved words provided by the language we can construct complex instructions that will make our scripts.
+
+## Question 3
 
 What does the print function do in Python?
 * The print function generates PDFs and sends it to the nearest printer.
@@ -28,7 +30,9 @@ What does the print function do in Python?
 * **The print function outputs messages to the screen**
 * The print function calculates mathematical operations.
 
-### Question 4
+> Using the print() we can generate output for the user of our programs.
+
+## Question 4
 
 Output a message that says "Programming in Python is fun!" to the screen.
 
@@ -36,14 +40,15 @@ Output a message that says "Programming in Python is fun!" to the screen.
 print("Programming in Python is fun!")
 ```
 
-### Question 5
+> We're just starting but programming in Python can indeed be a lot of fun.
+
+## Question 5
 
 Replace the ___ placeholder and calculate the Golden ratio: $\frac{1+\sqrt{5}}{2}$
 
 ```
-# ratio = ___
-# print(ratio)
-
 ratio = (1 + 5**.5) / 2
 print(ratio)
 ```
+
+> See how we can use Python to calculate complex values for us.
