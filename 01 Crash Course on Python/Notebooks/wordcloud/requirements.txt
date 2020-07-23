@@ -1,3 +1,0 @@
-ipywidgets>=5.1
-traitlets>=4.2
-notebook>=4.2
