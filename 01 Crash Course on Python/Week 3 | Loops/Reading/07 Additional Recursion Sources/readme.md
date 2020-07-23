@@ -1,6 +1,4 @@
-## Additional Recursion Sources
-
-<hr>
+# Additional Recursion Sources
 
 In the past videos, we visited the basic concepts of recursive functions.
 

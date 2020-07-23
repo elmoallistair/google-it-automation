@@ -1,6 +1,4 @@
-## For Loops Recap
-
-<hr>
+# For Loops Recap
 
 *For* loops allow you to iterate over a sequence of values. Let's take the example from the beginning of the video:
 

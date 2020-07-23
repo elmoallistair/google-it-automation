@@ -1,6 +1,4 @@
-## A Closer Look at the Range() Function
-
-<hr>
+# A Closer Look at the Range() Function
 
 Previously we had used the *range()* function by passing it a single parameter, and it generated a sequence of numbers from 0 to one less than we specified. But the *range()* function can do much more than that. We can pass in two parameters: the first specifying our starting point, the second specifying the end point. Don't forget that the sequence generated won't contain the last element; it will stop one before the parameter specified.
 
