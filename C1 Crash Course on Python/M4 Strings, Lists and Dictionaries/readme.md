@@ -1,4 +1,4 @@
-## Strings, Lists and Dictionaries
+# Strings, Lists and Dictionaries
 
 In this module you'll dive into more advanced ways to manipulate strings using indexing, slicing, and advanced formatting. You'll also explore the more advanced data types: lists, tuples, and dictionaries. You'll learn to store, reference, and manipulate data in these structures, as well as combine them to store complex data structures.
 
