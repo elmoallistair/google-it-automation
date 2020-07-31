@@ -1,0 +1,15 @@
+Provide a good commit message example
+
+The purpose of this commit is to provide an example of a handy crafted, artisanal commit message. The first line is a short, approximately 50 character summary, followed by an empty line. The subsequent paragraphs are jam-packed with descriptive information about the change, but each line is kept under 72 characters in length
+
+IF even more information is needed to explain the change, more paragraphs can ne added after blank lines, with links to issue, tickets, or bugs. Remember that future will thank current you for your toughfulness and foresight!
+
+# Please enter the commit message for your change. Lines starting
+# with '#' will be ignored, and an empy message aborts the commit.
+#
+# On brach master
+#
+# Changes to be commited:
+# new file:   super_script.py
+# new file:   cool_config.txt
+#

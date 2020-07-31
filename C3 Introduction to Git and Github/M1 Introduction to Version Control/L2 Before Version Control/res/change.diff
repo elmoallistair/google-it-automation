@@ -1,0 +1,12 @@
+--- rearrange1.py	2020-07-30 21:05:03.125048018 +0700
++++ rearrange2.py	2020-07-30 21:05:00.681023302 +0700
+@@ -3,7 +3,7 @@
+ import re
+ 
+ def rearrange_name(name):
+-    result = re.search(r'^([\w .]*), ([\w .]*)$', name)
++    result = re.search(r'^([\w .-]*), ([\w .-]*)$', name)
+     if result == None:
+         return result
+     return '{} {}'.format(result[2], result[1])
+\ No newline at end of file

@@ -1,0 +1,17 @@
+--- disk_usage_original.py	2020-07-30 22:06:36.991279753 +0700
++++ disk_usage_fixed.py	2020-07-30 22:05:28.775767891 +0700
+@@ -15,9 +15,9 @@
+     return True
+ 
+ # Check for at least 2 GB and 10% free
+-if not check_disk_usage("/", 2*3**10, 10):
++if not check_disk_usage("/", 2, 10):
+     print('ERROR: Not enough disk space')
+-    return 1
++    sys.exit(1)
+ 
+ print('Everything is ok')
+-return 0
+\ No newline at end of file
++sys.exit(0)
+\ No newline at end of file
