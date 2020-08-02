@@ -1,5 +1,9 @@
 # Welcome to the course
 
+<br>
+
+## Welcome to the course!
+
 In this course, you’ll learn how to use Git to keep a history of your code changes.
 Course prerequisites
 
@@ -30,9 +34,9 @@ Here are a few ways you can give and get help:
 3. **Qwiklabs support**: Please use the Qwiklabs support request form to report any issues with accessing or using Qwiklabs. A member of the Qwiklabs team will work with you to help resolve the problem.
 4. **Course content issues**: You can also flag problems in course materials by rating them. When you rate course materials, the instructor will see your ratings and feedback; other learners won’t. To rate course materials:
 
-* Open the course material you want to rate. You can only rate videos, readings, and quizzes.
-* If the content was interesting or helped you learn, click the thumbs-up icon.
-* If the content was unhelpful or confusing, click the thumbs-down icon.
+   * Open the course material you want to rate. You can only rate videos, readings, and quizzes.
+   * If the content was interesting or helped you learn, click the thumbs-up icon.
+   * If the content was unhelpful or confusing, click the thumbs-down icon.
 
 ## Finding out more information
 
