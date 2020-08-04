@@ -1,0 +1,19 @@
+"""
+this is dailtsync.py file
+"""
+
+#!/usr/bin/env python
+import os
+import subprocess
+import multiprocessing
+
+parentpath = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+
+src =parentpath+"/data/prod/"
+dest =parentpath+"/data/prod_backup/"
+
+if __name__=="__main__":
+        pool = multiprocessing.Pool(multiprocessing.cpu_count())
+
+        pool.apply(subprocess.call,args=(["rsync", "-arq", src, dest],))
+
