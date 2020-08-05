@@ -1,4 +1,4 @@
-# Google-IT-Automation-with-Python-Professional-Certificate
+# [Google IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation)
 
 ## About this Professional Certificate
 
@@ -22,3 +22,26 @@ Learn to use Git and GitHub, to troubleshoot and debug complex problems
 Apply automation at scale by using configuration management and the Cloud
 
 Practice your technical skills with hands-on projects including a capstone project where you’ll use your new knowledge to solve a real-world IT problem
+
+
+## What you will learn
+
+* Automate tasks by writing Python scripts
+* Use Git and GitHub for version control
+* Manage IT resources at scale, both for physical machines and virtual machines in the cloud
+* Analyze real-world IT problems and implement the appropriate strategies to solve those problems
+
+## Skills you will gain
+
+* Using Version Control
+* Troubleshooting & Debugging
+* Python Programming
+* Configuration Management
+* Automation
+* Basic Python Data Structures
+* Fundamental Programming Concepts
+* Basic Python Syntax
+* Object-Oriented Programming (OOP)
+* Setting up your Development Environment
+* Regular Expression (REGEX)
+* Testing in Python
