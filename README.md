@@ -2,6 +2,8 @@
 
 <a href="https://ibb.co/MSBmh7h"><img src="https://i.ibb.co/DWrZbQb/Coursera-N74-KNYBT74-QV-1.jpg" alt="Coursera-N74-KNYBT74-QV-1" border="0"></a>
 
+* All copyrighted materials belong to Coursera, this repository written for reference purpose
+
 ## About this Professional Certificate
 
 This new beginner-level, six-course certificate, developed by Google, is designed to provide IT professionals with in-demand skills -- including Python, Git, and IT automation -- that can help you advance your career.
