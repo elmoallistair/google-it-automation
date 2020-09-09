@@ -1,9 +1,5 @@
 # Welcome to the Course
 
-<br>
-
-## Welcome to the course!
-
 In this course, you’ll learn how to use Python to perform system administration tasks and interact with a computer’s operating system. You’re about to embark on an exciting journey to learn one of the most-in-demand job skills in IT today!
 
 ## Course prerequisites

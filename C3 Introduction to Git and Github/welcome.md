@@ -1,9 +1,5 @@
 # Welcome to the course
 
-<br>
-
-## Welcome to the course!
-
 In this course, you’ll learn how to use Git to keep a history of your code changes.
 Course prerequisites
 

@@ -1,9 +1,5 @@
 # Welcome to the Course!
 
-<br>
-
-## Welcome to the course!
-
 This course is designed to teach you the foundations of programming in Python. We’re excited to join you on this journey as you learn one of the most-in-demand job skills in IT today. In the U.S. alone, according to Burning Glass data from May 2019, there were ~530K job openings in 2018 asking for Python skills.
 
 ## Course prerequisites
