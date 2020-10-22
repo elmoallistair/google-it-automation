@@ -52,9 +52,9 @@ Hint: if a function returns multiple values, don't forget to store these values 
 # This function compares two numbers and returns them
 # in increasing order.
 def order_numbers(number1, number2):
-	**if** number2 > number1:
+	if number2 > number1:
 		return number1, number2
-	*else*:
+	else:
 		return number2, number1
 
 # 1) Fill in the blanks so the print statement displays the result
