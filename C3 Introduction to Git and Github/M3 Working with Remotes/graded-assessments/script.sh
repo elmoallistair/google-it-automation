@@ -1,30 +1,26 @@
 #/usr/bin/bash
 
-# Git operations
-
-git clone [URL]
-git clone https://github.com/[username]/[git-repo].git
-cd [directory_name]
-
 # Configure Git
 git config --global user.name "Name"
 git config --global user.email "user@example.com"
 
+# Clone
+git clone [URL]
+git clone https://github.com/[username]/[git-repo].git
+cd [directory_name]
+
 # Edit the file and add it to the repository
-nano README.md
-I am editing the README file. Adding some more details about the project description.
-git status
+nano README.md # I am editing the README file.
 git add README.md
 git commit
-I am editing the README file.
 git push origin master
 
 # Create a new file and commit it to the repository
-nano example.py
-git add example.py
+touch test.txt
+git add touch.txt
 git commit
 
 # Add an empty file to the repository through web UI
-git push origin master # error
+git push origin master # expected: error
 git pull origin master
 git push origin master
