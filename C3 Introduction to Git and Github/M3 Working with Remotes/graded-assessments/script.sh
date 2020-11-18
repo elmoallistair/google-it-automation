@@ -17,7 +17,7 @@ git push origin master
 
 # Create a new file and commit it to the repository
 touch test.txt
-git add touch.txt
+git add test.txt
 git commit
 
 # Add an empty file to the repository through web UI
