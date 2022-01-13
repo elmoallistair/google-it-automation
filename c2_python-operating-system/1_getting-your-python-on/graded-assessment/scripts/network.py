@@ -9,4 +9,5 @@ def check_localhost():
 
 def check_connectivity():
     request = requests.get("http://www.google.com")
-    return 200
+    response = request.status_code
+    return response == 200
