@@ -9,7 +9,7 @@ Restate the problem statement from the video example.
 * Each login event is an instance of the Event class.
 * The attributes of the Event class are date, user, machine, and type.
 * The company manager wants to know which users are currently connected to which machines.
-* We need to process a list of Event objects using their attributes to generate a report that lists all users currently logged in to the machines.
+* **We need to process a list of Event objects using their attributes to generate a report that lists all users currently logged in to the machines.**
 
 > This problem statement defines the problem in specific terms and provides a direction and goal.
 
@@ -21,7 +21,7 @@ There are two standard methods to sort a list in Python, sort and sorted. What i
 
 * sort returns a new list, while sorted returns the same list reorganized.
 * sort lists alphabetically, while sorted lists by word length.
-* sorted returns a new list, while sort returns the same list reorganized.
+* **sorted returns a new list, while sort returns the same list reorganized.**
 
 > Knowing the difference between these two methods is not nearly as important as the ability to research the tools we have available to us.
 
