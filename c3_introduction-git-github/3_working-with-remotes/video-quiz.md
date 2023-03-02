@@ -144,9 +144,9 @@ Generally, git rebase is an alternative to which command?
 
 Which of the following statements is true regarding best practices for collaboration?
 
-* **Keep the stable version of the project in the master branch, and the latest version on a separate branch.**
+* Keep the stable version of the project in the master branch, and the latest version on a separate branch.
 * Try to fit all changes into one large change.
 * You should always rebase changes that have been pushed to a remote repo.
-* Always synchronize your branches before starting any work on your own.
+* **Always synchronize your branches before starting any work on your own.**
 
 > This way, when you start changing code, you're starting from the most recent version, minimizing chances of conflicts or the need for rebasing.
