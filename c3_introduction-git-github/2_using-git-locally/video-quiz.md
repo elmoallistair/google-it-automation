@@ -123,7 +123,7 @@ What does the ***git checkout -b new branch*** command do?
 * Switches to another branch and immediately commits.
 * Checks if the new branch is ahead of the main branch.
 * Merges two branches.
-* Creates a new branch and switches to it.
+* **Creates a new branch and switches to it.**
 
 <br>
 
