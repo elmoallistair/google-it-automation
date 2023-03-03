@@ -36,8 +36,8 @@ What command will download remote branches from remote repositories without merg
 
 * git checkout
 * git pull
-* git fetch
-* **git remote update**
+* **git fetch**
+* git remote update
 
 > git fetch will download remote updates, such as objects and refs, from the remote branch.
 
