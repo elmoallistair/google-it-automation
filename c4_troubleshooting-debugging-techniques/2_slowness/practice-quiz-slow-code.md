@@ -60,7 +60,7 @@ In Python, what is a data structure that stores multiple pieces of data, in orde
 
 What command, keyword, module, or tool can be used to measure the amount of time it takes for an operation or program to execute? (Check all that apply)
 
-* time
+* **time**
 * **kcachegrind**
 * **cProfile**
 * break
