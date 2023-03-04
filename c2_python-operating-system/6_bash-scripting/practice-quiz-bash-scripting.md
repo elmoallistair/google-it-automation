@@ -8,7 +8,7 @@
 
 Which of the following commands will output a list of all files in the current directory?
 
-* **echo ***
+* <strong>echo *</strong>
 * echo a*
 * echo *.py
 * echo ?.py
