@@ -82,7 +82,7 @@ import datetime
 def file_date(filename):
   # Create the file in the current directory
   with open (filename,'w') as file:
-    pass
+    {}
   timestamp = os.path.getmtime(filename)
 
   # Convert the timestamp into a readable format, then into a string
@@ -96,10 +96,10 @@ print(file_date("newfile.txt"))
 # Should be today's date in the format of yyyy-mm-dd
 ```
 
-Output:
+Output (will be different depending on the _current_ date):
 
 ```
-2020-07-18
+2023-03-03
 ```
 
 <br>
