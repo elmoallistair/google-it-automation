@@ -42,10 +42,25 @@ rose.color = 'Red'
 violet = Flower()
 violet.color = 'Blue'
 
-this_pun_is_for_you = "This pun is for you."
+this_pun_is_for_you = """One day we'll cruise down
+Blood Gulch avenue
+It's red versus red,
+and blue versus blue
+It's I against I,
+and me against you
+Violets are blue, roses are red,      
+living like this we were already dead
+Hop in my car,
+it don't have any doors
+It's built like a cat,
+It lands on all fours
+My car's like a puma,
+it drives on all fours
+Red versus red
+Blue versus blue."""
 
 print("Roses are {},".format(rose.color))
-print("violets are {},".format(violet.color))
+print("Violets are {},".format(violet.color))
 print(this_pun_is_for_you) 
 ```
 
@@ -53,8 +68,23 @@ Output:
 
 ```
 Roses are Red,
-violets are Blue,
-This pun is for you.
+Violets are Blue,
+One day we'll cruise down
+Blood Gulch avenue
+It's red versus red,
+and blue versus blue
+It's I against I,
+and me against you
+Violets are blue, roses are red,      
+living like this we were already dead
+Hop in my car,
+it don't have any doors
+It's built like a cat,
+It lands on all fours
+My car's like a puma,
+it drives on all fours
+Red versus red
+Blue versus blue.
 ```
 
 <br><hr><br>
