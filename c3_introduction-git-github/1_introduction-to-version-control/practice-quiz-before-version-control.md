@@ -37,7 +37,7 @@ The _____ commandhighlights the words that changed in a file instead of working 
 
 * diff
 * diff -u
-* **vimdiff**
+* **wdiff**
 * patch
 
 > The vimdiff commandhighlights the words that changed in a file by color, in addition to working line by line.
